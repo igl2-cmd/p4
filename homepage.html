@@ -1,0 +1,143 @@
+<!-- DEVELOPER: [Your Name Here], IS117-xxx, Fall 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Performance Training - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjC7kPzJ7Q1tF5sT5C4D7J4F5gL3V8aT1uK9H4uL9S1iM0pQ5gL3pL" crossorigin="anonymous">
+    <!-- Custom Styles (Optional, for aesthetic enhancement) -->
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1200x500/0f172a/ffffff?text=Athlete+Training+Background') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 5rem 0;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .card-body {
+            min-height: 200px; /* Ensures consistent card height */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 mb-0">Peak Performance Training</h1>
+            <p class="lead mb-0 d-none d-md-block">Train Smarter, Achieve More</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <!-- 2-Tier Navigation (Dropdown Menu) -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            TRAINING PLANS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="strength.html">Beginner Programs</a></li>
+                            <li><a class="dropdown-item" href="nutrition.html">Advanced Training Plans</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recovery.html">RECOVERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mental.html">MENTAL TOUGHNESS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT / CONSULTATION</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Area: Jumbotron Equivalent (Hero Section) -->
+    <div class="container-fluid hero-section text-center">
+        <div class="container">
+            <h2 class="display-3 fw-bold">Unleash Your Athletic Potential</h2>
+            <p class="lead mb-4">Access elite training, nutrition, and recovery strategies used by the best in the game.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg shadow-lg">Schedule Your Free Consultation Today</a>
+        </div>
+    </div>
+
+    <!-- Content Area: Bootstrap Cards -->
+    <div class="container my-5">
+        <h3 class="text-center mb-4">Our Core Performance Focus</h3>
+        <div class="row g-4">
+            <!-- Card 1: Strength -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="https://placehold.co/400x200/5cb85c/ffffff?text=Strength+Training" class="card-img-top" alt="Strength Training">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">Strength & Conditioning</h5>
+                        <p class="card-text">Develop raw power and endurance with periodized, science-backed workout programs for every sport.</p>
+                        <a href="strength.html" class="btn btn-outline-success">View Programs</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: Nutrition -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="https://placehold.co/400x200/0275d8/ffffff?text=Performance+Nutrition" class="card-img-top" alt="Performance Nutrition">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Nutrition for Performance</h5>
+                        <p class="card-text">Fuel your body efficiently. Get custom meal plans and critical reviews of the best supplements available.</p>
+                        <a href="nutrition.html" class="btn btn-outline-primary">View Guides</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Recovery -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <img src="https://placehold.co/400x200/f0ad4e/ffffff?text=Injury+Recovery" class="card-img-top" alt="Injury Prevention">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Injury & Recovery</h5>
+                        <p class="card-text">Learn prevention tactics, understand common sports injuries, and access safe, effective rehabilitation protocols.</p>
+                        <a href="recovery.html" class="btn btn-outline-warning">Get Resources</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <div class="container">
+            <!-- Footer Links -->
+            <div class="mb-2">
+                <a href="#" class="text-white mx-2 text-decoration-none">Terms of Service</a> | 
+                <a href="#" class="text-white mx-2 text-decoration-none">Privacy Statement</a>
+            </div>
+            <!-- Copyright -->
+            <p class="mb-0">
+                &copy; 2025 | [Your Name Here] - IS117 Project
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Required for Dropdown and Responsive Nav) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
